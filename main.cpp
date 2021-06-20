@@ -3,11 +3,8 @@
 
 using namespace std;
 
-
-
 int main() {
 
   crt::calculos();
-
 
 }

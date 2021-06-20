@@ -23,16 +23,20 @@ namespace crt{
 
     Rs=R1+R2;
     cout<<"A resistencia em serie é:"<<Rs<<"ohms"<<endl;
-    cout<<"A corrente total é:" << I= V/Rs << "A"<< endl;
-    cout<<"A potencia total é:" << P=V/I << "W"<< endl;
+    I= V/Rs;
+    cout<<"A corrente total é:" << I << "A"<< endl;
+    P=V/I;
+    cout<<"A potencia total é:" << P << "W"<< endl;
   }
   if(R==2)
   {
 
     Rp=((R1*R2)/(R1+R2));
     cout<<"A resistencia em pararelo é:"<< Rp << "ohms"<<endl;
-    cout<<"A corrente total é:" << I= V/Rp << "A"<< endl;
-    cout<<"A potencia total é:" << P=V/I << "W"<< endl;
+    I= V/Rp;
+    cout<<"A corrente total é:" << I << "A"<< endl;
+    P=V/I;
+    cout<<"A potencia total é:" << P << "W"<< endl;
   }
  
   
